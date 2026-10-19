@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name" translatable="false">OpenCity</string>
+
+    <!-- Server Address Gate -->
+    <string name="language_english">English</string>
+    <string name="language_portuguese">Portuguese</string>
+
+    <string name="connect_title">Connect to a server</string>
+    <string name="connect_instructions">Enter the address of the server you want to connect to.</string>
+    <string name="security_note">For a secure connection, use an address beginning with https://.\nHTTP is unencrypted and is not recommended.</string>
+    <string name="server_address">Server address</string>
+    <string name="server_address_placeholder">https://example.com</string>
+    <string name="invalid_server_address">Enter a valid URL, including https:// or http://.</string>
+    <string name="continue_button">Continue</string>
+    <string name="http_dialog_title">Use an insecure connection?</string>
+    <string name="http_dialog_message">This address uses HTTP, which does not encrypt traffic.\nYour connection may be observed or altered. Use HTTPS if the server supports it.</string>
+    <string name="continue_with_http">Continue with HTTP</string>
+    <string name="go_back">Go back</string>
+    <string name="map_screen_topbar_description">What is happening in your city?</string>
+    <string name="map_preview_mainpage">Map preview</string>
+    <string name="map_screen_create_report_button_icon">Create report</string>
+    <string name="map_screen_create_report_button_text">Report</string>
+    <string name="bottom_bar_item_map">Map</string>
+    <string name="bottom_bar_item_report">Reports</string>
+    <string name="bottom_bar_item_notifications">Notifications</string>
+    <string name="bottom_bar_item_account">Account</string>
+    <string name="reports_top_bar_title">My reports</string>
+    <string name="reports_top_bar_description">Follow the status of your reports</string>
+    <string name="top_bar_notifications_title">Notifications</string>
+    <string name="top_bar_notifications_description">Updates about your activity</string>
+    <string name="top_bar_account">Account</string>
+    <string name="account_section_your_activity_title">Your activity</string>
+    <string name="account_section_your_activity_contribution">Contribution history</string>
+    <string name="your_activity_contribution_history_subtitle">View your reports, comments and confirmations</string>
+    <string name="your_activity_section_export_ur_data_title">Export your data</string>
+    <string name="ur_activity_section_export_ur_data_subtitle">Download your reports and contributions</string>
+    <string name="account_section_account_settings">Account settings</string>
+    <string name="account_settings_notifications_title">Notifications</string>
+    <string name="account_settings_notifications_subtitle">Manage Manage report and activity notification</string>
+    <string name="account_settings_security_title">Security</string>
+    <string name="account_settings_security_subtitle">Manage your password and login methods</string>
+    <string name="account_settings_application_settings_title">Appplication settings</string>
+    <string name="account_settings_application_settings_subtitle">Theme, map, offline data, and preferences</string>
+    <string name="account_section_other_section">Other</string>
+    <string name="account_section_other_title">About OpenCity</string>
+    <string name="account_section_other_subtitle">erms of use, licenses, and project information</string>
+    <string name="settings_screen_top_bar_title">Settings</string>
+    <string name="settings_screen_top_bar_description">Costumize your OpenCity experience</string>
+    <string name="settings_screen_appearance_section">Appearance</string>
+    <string name="settings_screen_interface_mode_title">Interface mode</string>
+    <string name="settings_screen_interface_mode_description">Choose the appearance style of the app</string>
+    <string name="settings_screen_interface_automatic_title">Automatic</string>
+    <string name="settings_screen_interface_automatic_description">Follow systems mode</string>
+    <string name="settings_screen_interface_light_mode_title">Light mode</string>
+    <string name="settings_screen_interface_light_mode_description">Always light mode</string>
+    <string name="settings_screen_interface_dark_mode_title">Dark mode</string>
+    <string name="settings_screen_interface_dark_mode_description">Always dark mode</string>
+    <string name="settings_screen_animation_switch_title">Animations</string>
+    <string name="settings_screen_animation_switch_description">Enable transitions and interface animations. Might decrease performance.</string>
+    <string name="settings_screen_notifications_section">Notifications</string>
+    <string name="settings_screen_notifications_section_nearby_reports_switch_title">Nearby reports</string>
+    <string name="settings_screen_notifications_section_report_updates_switch_title">Report updates</string>
+    <string name="settings_screen_notifications_section_report_updates_switch_description">Notify me when a report changes sta</string>
+    <string name="settings_screen_notifications_section_comments_switch_title">Comments</string>
+    <string name="settings_screen_notifications_section_comments_switch_description">Notify me when someone comments on my reports</string>
+    <string name="settings_screen_notifications_section_high_severity_reports_switch_title">High-severity reports</string>
+    <string name="settings_screen_notifications_section_high_severity_reports_switch_description">Notify me about urgent problems in my area</string>
+    <string name="settings_screen_map_section">Map</string>
+    <string name="settings_screen_notifications_section_nearby_reports_switch_description">Notify me about reports near my location</string>
+</resources>

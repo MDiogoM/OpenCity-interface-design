@@ -1,0 +1,58 @@
+package com.example.opencity.ui.screens
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
+import com.example.opencity.R
+import com.example.opencity.models.Message
+import com.example.opencity.ui.components.MessageCard
+import com.example.opencity.ui.components.TopBar
+
+@Composable
+fun NotificationsScreen() {
+    val messages = listOf(
+        Message(
+            id = 1,
+            title = "Report updated",
+            body = "Your report about the broken streetlight is now being reviewed.",
+            date = "Today",
+            author = "OpenCity",
+        ),
+        Message(
+            id = 2,
+            title = "Report resolved",
+            body = "The overflowing trash bin report has been resolved.",
+            date = "Yesterday",
+            isRead = true,
+            author = "OpenCity"
+        ),
+        Message(
+            id = 3,
+            title = "Welcome to OpenCity",
+            body = "Help improve your city by reporting local problems.",
+            date = "September 28",
+            isRead = true,
+            author = "OpenCity"
+        )
+    )
+
+    Column(modifier = Modifier.fillMaxWidth()) {
+        TopBar(stringResource(R.string.top_bar_notifications_title), stringResource(R.string.reports_top_bar_description))
+        Column( modifier = Modifier.fillMaxSize().padding(horizontal = 16.dp) ) {
+            LazyColumn(
+                contentPadding = PaddingValues(bottom = 16.dp),
+                verticalArrangement = Arrangement.spacedBy(12.dp)
+            ) { items(messages) { message -> MessageCard(message = message) } }
+        }
+    }
+}
+
